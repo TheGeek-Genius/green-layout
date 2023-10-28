@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Green-Layout</title>
+	<style>
+*{
+	padding:0px;
+	margin:0px;
+	font-family: 'trebuchet MS';
+}
+#navigation ul li:hover{
+	color:green;
+	cursor:pointer;
+}	
+#header{
+	background-color:#151515;
+	height:70px;
+}
+#header-container{
+	margin: 0% 16%;
+    height: 70px;
+	padding-top:5px;
+}
+#logo{
+	width:27%;
+	float:left;
+   /*	margin-top:13px; */
+}
+#logo img{
+	width:100%;
+}	
+#navigation{
+	width:43%;
+	float:right;
+ 	margin-top:23px;
+}
+#navigation ul li{
+	list-style-type:none;
+	float:left;
+	margin-right:8px;
+	color:#e2f6fb;
+	font-size:13px;
+}
+#navigation .green{
+	color:green;
+}
+#main-logo{
+	position:relative;
+	height:auto;
+	margin-bottom:7%;
+}
+#main-logo img{
+	width:100%;
+}
+#absolute{
+	position:absolute;
+	left:17%;
+	top:24%;
+	color:white;
+}
+#our-work{
+	background-color: #4cad06;
+    width: 18%;
+    padding:12px 16px;
+	margin-top:25px;
+	border-radius:4px;
+	
+}
+#our-work p{
+	font-size:14px;
+}	
+#para-one{
+	font-size:60px;
+}
+#para-two{
+	font-size:17px;
+}
+#cs-main{
+	padding:0px 160px;
+}	
+#cs-section{
+    margin-top: 5%;
+	padding-bottom:5%;
+}		
+
+#cs-container{
+    border-bottom: 1px solid #d2d2d2;
+    padding-bottom: 61px; 
+	position:relative;
+	margin-bottom:55px;
+}	
+.cs-items{
+	float:left;
+	text-align:center;
+	width:33%;
+}
+.cs-items h6{
+    font-size:22px;
+	margin-bottom:10px;
+	color:#948e89;
+}
+.cs-items p{
+	padding: 0px 30px;
+	color: #948e89;
+}
+#empty-one{
+	position: absolute;
+    bottom: -12px;
+    left: 38%;
+	width:21%;
+	background-color: white;
+	padding-left:15px; 
+	text-align:center;
+}
+#clients{
+    background-color: #008000;
+    padding: 4px;
+    width: 175px;
+  /*  border-radius: 3px;	*/
+}	
+#clients h6{
+	color:white;
+	font-size:small;
+}	
+#testimonial{
+	border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 55px;
+	position:relative;	
+}	
+#left-content{
+	float:left;
+}
+#right-content{
+	padding-left: 33%;
+	padding-top: 3%;
+	margin-top:25px;
+}
+#right-content p{
+	text-align:center;
+	font-size:15px;
+	color: #948e89;
+	font-style: italic;
+	margin-top:10px;
+}
+#empty-two{
+	position: absolute;
+    bottom: -11px;
+    left: 38%;
+	width:21%;
+	background-color: white;
+	padding-left:15px;
+	text-align:center;
+}
+#drop{
+    background-color: #008000;
+    padding: 4px;
+    width: 175px;
+  /*  border-radius: 3px;	*/
+}	
+#drop h6{
+	color:white;
+	font-size:small;
+}
+#footer{
+	margin-top:50px
+}
+#map{
+	float:right;
+}
+
+#para{
+	float:left;
+	width:30%;
+}
+#para p{
+    position: relative;
+    top: -30px;
+    margin-left: 45px;
+	color: #948e89
+}
+#logo-last{
+	margin-top:0px;
+	margin-right:0px;
+}
+@media(max-width: 1200px){
+		#header{
+			height:auto;
+		}
+		#header-container{
+			height:auto;
+			margin:0%;
+		}	
+		#logo{
+			text-align:center;
+			float:none;
+			width:100%;
+		}	
+		#logo img{
+			width:50%;
+			text-align:center;
+		}	
+		#navigation{
+			float:none;
+			text-align:center;
+			width:100%;
+			margin-bottom:2%;
+		}	
+		#navigation ul li{
+			float:none;
+			width:100%;
+		}
+		#navigation .green{
+			visibility:hidden;
+		}	
+		#main-logo{
+			margin-bottom:5%;
+		}	
+		.cs-items{
+			float:none;
+			width:100%;
+			text-align:center;
+			margin-bottom:10%;
+		}
+		.cs-items h6{
+			margin-bottom:3%;
+			text-align:center;
+		}
+		.cs-items h6{
+			text-align:center;
+		}	
+		#empty-one{
+			background:none;
+		}
+		#empty-two{
+			background:none;
+		}		
+}		
+@media(max-width: 850px){
+		#absolute{
+		    position: absolute;
+			left: 8%;
+			top: 2%;
+		}
+		#para-one{
+		    font-size: 35px;		
+		}	
+		#para-two{
+			font-size: 10px;
+		}	
+		#our-work{
+			width: 21%;
+			padding: 7px 10px;
+			margin-top: 10px;			
+		}	
+		#our-work p{
+		   font-size: 10px;
+		}	
+		#cs-main{
+			padding:0px;
+		}
+		#empty-one {
+			position: absolute;
+			bottom: -12px;
+			left: 30%;
+			width:100%;
+			padding:0px;
+		}
+		#empty-two {
+			position: absolute;
+			bottom: -11px;
+			left: 30%;	
+			padding:0px;
+			/* width:100%; */
+		}	
+		#logo img{
+		    width:40%;
+		}
+		#testimonials{
+			text-align:center;
+			width:100%;
+			padding:0px;
+		}	
+		#left-content{
+			float:none;
+			width:100%;
+			text-align:center;
+		}
+		#right-content{
+			width:100%;
+			padding:0px;
+			text-align:center;
+			margin-top: 5%;
+		}
+		#right-content p{
+			padding: 0px 5px
+		}	
+}
+@media(max-width: 600px){
+		#para p{
+			font-size: x-small;
+		}
+		#map img{
+			width: 70%;
+			float: right;
+		}	
+}
+
+		
+.clearfix::after{
+ display:table;
+ content:"";
+ clear:both;
+ }
+	</style>
+</head>
+<body>
+	<div id="header" class="clearfix">
+		<div id="header-container" class="clearfix">
+			<div id="logo">
+				<img src="./images/logo.png" />
+			</div>
+			<div id="navigation">
+				<ul>
+					<li>Home</li>
+					<li class="green"/*style="color:#84846a;"*/>/</li>
+					<li>About</li>
+					<li class="green"/*style="color:#84846a;"*/>/</li>
+					<li>Portfolio</li>
+					<li class="green"/*style="color:#84846a;"*/>/</li>				
+					<li>Clients</li>
+					<li class="green"/*style="color:#84846a;"*/>/</li>
+					<li>Contact</li>
+					<li class="green"/*style="color:#84846a;"*/>/</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="main-logo" >
+	  <div id="absolute">
+		<p id="para-one">WE KNOW WEB DESIGN</p>
+		<p id="para-two">With over 15 years experience you can be sure your <br /> website is in safe hands</p>
+		<div id="our-work">
+			<p>VIEW OUR WORK</p>
+		</div>
+	  </div>	
+		<img src="./images/banner.jpg" />
+	</div>
+	<div id="cs-main" class="clearfix">
+		<div id="cs-section" class="clearfix">
+			<div id="cs-container" class="clearfix">
+				<div class="cs-items">
+					<img src="./images/cs-1.png" />
+					<h6>Web Design</h6>
+					<p>quatis alique mos et aut occae cum veliquaspit quo quam, si idem reprorisqui doluptatur accum si sunt ut officiisto enecab id et aut es et laboribusam endi rerum as minullorent officiatum non cuscium quuntem</p>
+				</div>
+				<div class="cs-items">
+					<img src="./images/cs-2.png" />
+					<h6>E-commerce</h6>
+					<p>quatis alique mos et aut occae cum veliquaspit quo quam, si idem reprorisqui doluptatur accum si sunt ut officiisto enecab id et aut es et laboribusam endi rerum as minullorent officiatum non cuscium quuntem</p>
+				</div>
+				<div class="cs-items">
+					<img src="./images/cs-3.png" />
+					<h6>SEO</h6>
+					<p>quatis alique mos et aut occae cum veliquaspit quo quam, si idem reprorisqui doluptatur accum si sunt ut officiisto enecab id et aut es et laboribusam endi rerum as minullorent officiatum non cuscium quuntem</p>
+				</div>				
+				<div id="empty-one">
+					<div id="clients">
+						<h6>WHAT OUR CLIENTS SAY</h6>
+					</div>
+				</div>
+			</div>
+			<div id="testimonial" class="clearfix">
+				<div id="left-content">
+					<img src="./images/head.png" />
+				</div>
+				<div id="right-content">
+					<img src="./images/quote.png" />
+					<p>quatis alique mos et aut occae cum, veliquaspit quo quam, si idem reprorisqui doluptatur <br /> accum si sunt ut officiisto enecab id et aut es et I</p>
+				</div>
+				<div id="empty-two">
+					<div id="drop">
+						<h6>DROP US A LINE</h6>
+					</div>
+				</div>
+				
+			</div>
+			<div id="footer" class="clearfix">
+				<div id="para">
+					<img src="./images/call.png" />
+					<p>555 555 5555</p>
+					<img src="./images/email.png" />
+					<p>hello@whatever.com</p>
+					<img src="./images/map-icon.png" />
+					<p>Leaf Studios Times Square NY</p>
+				</div>
+				<div id="map">
+					<img src="./images/map.png" />
+				</div>
+			</div>
+			<div id="logo-last">
+				<img src="./images/logo-sprite.png" />
+			</div>
+		</div>
+	</div>
+</body>
+</html>
